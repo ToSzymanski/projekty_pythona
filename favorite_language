@@ -1,0 +1,14 @@
+favorite_languages = {
+    'janek' : 'python',
+    'sara' : 'c',
+    'edward' : 'ruby',
+    'paweł' : 'python',
+    }
+
+users_to_survey = ['janek', 'tomek', 'jola', 'paweł']
+
+for user_to_survey in users_to_survey:
+    if user_to_survey in favorite_languages.keys():
+        print(f'{user_to_survey.title()} dziękuję ze wziołeś udział w ankiecie')
+    else:
+        print(f'{user_to_survey.title()} zapraszam do wzięcia udziału w ankiecie')
